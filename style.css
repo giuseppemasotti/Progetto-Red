@@ -1,0 +1,362 @@
+
+/* root */
+* {
+    font-family: 'Nova Square', sans-serif;
+}
+
+.first_color {
+    color: darkred;
+}
+
+.secondary_color {
+    color: #C67F7F;
+}
+
+.tertiary_color {
+    color: #ececec;
+}
+
+.bg_lightgrey {
+    background-color: #ececec;
+}
+
+.color-textwhite-custom {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 , h3 , h4 , h5 , h6 {
+    color: darkred;
+}
+
+
+
+
+/* NAVBAR */
+.logo-nav {
+    height: 8vh;
+}
+
+
+
+
+/* INIZIO HEADER */
+.header-h {
+    height: 100vh;
+    background: linear-gradient(180deg, #ececec 0%, rgba(255, 255, 255, 0.367) 50%, rgba(255,255,255,0) 100%) , url(./media/switzerland-862870_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.img-2 {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+.title-custom {
+    height: 100vh;
+}
+
+.box-title {
+    position: relative;
+}
+
+h1 {
+    color: darkred;
+    letter-spacing: 70px;
+    padding: 0% 20%;
+    position: absolute;
+    top: 45vh;
+}
+
+
+
+
+/* INIZIO PARAGRAFO  */
+.paragraph-1 {
+    font-style: italic;
+    color: gray;
+}
+
+h2 {
+    color: darkred;
+    display: flex;
+    
+}
+
+
+
+
+/* INIZIO ICONE */
+
+.icon_column {
+    height: 50vh;
+}
+
+.icon_container {
+    width: 90%;
+    height: 100%;
+    border-bottom: 0.6vh solid darkred;
+    position: relative;
+}
+
+.icon-custom {
+    margin-bottom: 10px;
+    color: darkred;
+}
+
+.pseudosphere::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid darkred;
+    background-color: white;
+    position: absolute;
+    bottom: -13.50%;
+    right: 45.7%;
+}
+
+
+
+
+/* INIZIO PARAGRAFO 2 */
+.title-p2-custom {
+    color: darkred;
+    justify-content: right;
+}
+
+
+
+.paragraph-1 {
+    color: gray;
+    font-size: medium;
+    display: flex;
+    text-align: left;
+}
+
+
+
+
+/* INIZIO BUTTON */
+.container-button {
+    height: 75vh;
+}
+
+.button-custom {
+    border: 2px darkred solid;
+    width: 200px;
+    height: 6vh;
+    background-color: darkred;
+    
+}
+
+.text-button {
+    padding-top: 1vh;
+}
+
+
+
+
+/* img3 */
+.container-img3 {
+    position: relative;
+}
+
+.img-3{
+    width: 100%;
+    position: absolute;
+    bottom: -30vh;
+}
+
+
+
+
+/* TIMELINE */
+.box-timeline {
+    margin-top: 30vh;
+    padding: 0% 5%;
+}
+
+.box-timeline2 {
+    margin-top: 2vh;
+}
+
+.custom-column {  
+    border-left: darkred 4px solid;
+    width: 50%;
+    height: 93vh;
+    padding-right: 5%;
+    position: relative;
+}
+
+.pseudosphere2::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2.5px solid darkred;
+    background-color: white;
+    position: absolute;
+    left: -12px;
+}
+
+
+.custom-column2 {    
+    width: 50%;
+    height: 99vh;
+}
+
+
+
+
+/* CARDS */
+.cards-section {
+    margin-top: 25vh;
+}
+
+.title-team {
+    margin-bottom: 5vh;
+}
+/* IMMAGINI A CERCHIO */
+.container-img {
+    width: 100%;
+    height: 25vh;
+  
+}
+
+.cornice {
+    border: solid 4px darkred;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.box-foto-piccola {
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+}
+
+.mountain-1920 {
+    background-image: url(./media/mountain-547363_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* IMMAGINI tonde */
+
+/* PARAGRAFI */
+.txt-p {
+    font-size: smaller;
+    font-style: italic;
+    color: darkred;
+}
+
+.socialmedia {
+    color: darkred;
+}
+
+.container-icon {
+    /* border: 2px black solid; */
+    width: 100%;
+    height: 4vh;
+    padding: 0% 15%;
+}
+/* PARAGRAFI */
+
+
+
+
+/* BENEFITS */
+.title-benefits {
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+}
+
+.container-img2 {
+    width: 100%;
+    height: 40vh;
+    /* border: 3px solid darkred; */
+}
+
+.container-img3 {
+    width: 100%;
+    height: 40vh;
+    /* border: 3px solid darkred; */
+}
+
+.cornice2 {
+    border: solid 4px darkred;
+    border-radius: 50%;
+    width: 275px;
+    height: 275px;
+}
+
+.box-foto-piccola2 {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+.sea {
+    background-image: url(./media/fog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.bordersium {
+    border: 2px solid black;
+}
+
+
+
+
+/* IMMAGINE TREES 2 */
+.container-trees2 {
+    width: 100%;
+    height: 70vh;
+
+    position: relative;
+}
+
+.img-trees2-custom {
+    width: 100%;
+    position: absolute;
+    bottom: 0vh;
+    left: 0px;
+}
+
+
+/* footer */
+
+
+.alberi-footer{
+    height: 400px;
+    background-image: url(./media/other.png);
+    background-size: cover;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.bg-footer-custom{
+    color: white;
+    background-color: darkred;
+
+
+}
+
+.link-footer-custom{
+    text-decoration: none;
+    color: white;
+}
+
+.h2-footer{
+    color: white;
+}
